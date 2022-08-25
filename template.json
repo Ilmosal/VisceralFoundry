@@ -1,0 +1,84 @@
+{
+"Actor": {
+  "types": ["character", "npc"],
+  "templates": {
+    "attributes": {
+      "might":{
+        "value": 5
+      },
+      "agility":{
+        "value": 5
+      },
+      "perception":{
+        "value": 5
+      },
+      "intelligence":{
+        "value": 5
+      },
+      "willpower":{
+        "value": 5
+      }
+    },
+    "state":{
+      "health":{
+        "value": 0,
+        "max_val": 10
+      },
+      "martial pool": {
+        "value": 0,
+        "max_val": 2
+      }
+    },
+    "description": {
+      "appearance": "",
+      "information": {
+        "value": "",
+        "private": true
+      }
+    }
+  },
+  "character": {
+    "templates": ["attributes", "state", "description"]
+  },
+  "npc": {
+    "templates": ["attributes", "state", "description"]
+  }
+},
+"Item": {
+  "types": ["weapon", "armor", "equipment"],
+  "templates": {
+    "properties": {
+      "name": {
+        "value": ""
+      },
+      "description": {
+        "value": ""
+      },
+      "slots": {
+        "value": 0,
+        "min": 0
+      }
+    },
+    "condition": {
+      "quality": {
+        "value": 0
+      },
+      "state": {
+        "value": 0
+      }
+    }
+  },
+  "weapon": {
+    "templates": ["properties", "condition"],
+    "damage": 0
+  },
+  "armor": {
+    "templates": ["properties", "condition"],
+    "protection": 0
+    }
+  },
+  "equipment": {
+    "templates": ["properties"]
+  }
+}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "visceral",
+  "title": "Visceral RPG",
+  "description": "Foundry VTT model for the Visceral-rpg.",
+  "version": 0.1,
+  "minimumCoreVersion": "0.6.2",
+  "compatibleCoreVersion": "0.6.2",
+  "templateVersion": 2,
+  "author": "Cubanfrog",
+  "esmodules": ["module/simple.js"],
+  "styles": ["styles/simple.css"],
+  "packs": [],
+  "languages": [],
+  "gridDistance": 2,
+  "gridUnits": "m",
+  "primaryTokenAttribute": null,
+  "secondaryTokenAttribute": null,
+  "url": "https://github.com/MrCubanfrog/visceralfoundry",
+  "manifest": "https://github.com/MrCubanfrog/visceralfoundry/system.json",
+  "download": null,
+  "license": "LICENSE.txt"
+}

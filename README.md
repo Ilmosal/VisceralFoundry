@@ -1,2 +1,3 @@
-# VisceralFoundry
-Github repository for Foundry VTT module for my RPG
+# Visceral RPG
+
+Simple base for the Foundry VTT Visceral RPG game system.
